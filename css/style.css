@@ -4,9 +4,24 @@
 
   body {
     padding: 8px;
-    background-color: #F6F6F6;
+    background-color: #3b3b3b;
     box-sizing: border-box;
+    font-family: 'Noto Sans Japanese', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   }
+
+
+p {
+  font-family: 'Noto Sans Japanese', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+#my-id {
+  color: #ffa500;
+}
+
+.cast {
+  color: #fff;
+  font-family: 'Noto Sans Japanese', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
 
   .split {
     -webkit-box-sizing: border-box;
@@ -116,8 +131,5 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
 
 #step1-error, #step2, #step3 {
   display: none;
-}
-#my-id {
-  font-weight: bold;
 }
 

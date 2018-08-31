@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebDemo</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="text/javascript" src="https://cdn.webrtc.ecl.ntt.com/skyway-latest.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <script type="text/javascript" src="//cdn.webrtc.ecl.ntt.com/skyway-latest.js"></script>
+  <script type="text/javascript" src="key.js"></script>
+
+  <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+</head>
+<body>
+
+<div class="pure-g cast">
+
+  <!-- Video area -->
+  <div class="pure-u-2-3" id="video-container">
+    <video id="video" autoplay playsinline></video>
+  </div>
+
+  <!-- Steps -->
+  <div class="pure-u-1-3">
+    <p style="font-size: 25px; font-weight: 100">BroadCast (P2P)</p>
+
+    <!-- Get local audio/video stream -->
+    <div id="step1">
+      <p style="font-size: 25px; font-weight: 100">ID ~> <span id="my-id">...</span></p>
+      <form id="broadcast" class="pure-form">
+        <p><button href="#" class="pure-button pure-button-success" type="submit">Broadcast</button></p>
+      </form>
+      <input type="button" class="pure-button pure-button-warning" value="Refresh" onclick="window.location.reload();" /></p>
+    </div>
+
+  </div>
+</div>
+
+</body>
+
+</html>
