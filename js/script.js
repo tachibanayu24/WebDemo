@@ -52,3 +52,15 @@ $(function() {
     });
   });
 });
+
+
+// // videoエリアの大きさ
+// $(function(){
+//   var vH = $('#video-container').innerHeight();
+
+//   var wH = $(window).height();
+
+//   var hH = wH - vH;
+
+//   $('#video-container').css('height', hH + 'px');
+// });
